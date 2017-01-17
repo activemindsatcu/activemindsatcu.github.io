@@ -1,0 +1,86 @@
+---
+---
+$logo-height: 25px;
+$nav-height: 50px;
+$columbia-blue: #7fbfe9;
+$activeminds-navy:#084286;
+$activeminds-green:#aabe26;
+body{
+    background-color: white;
+    padding-top:$nav-height;
+    min-height: 2000px;//delete later. temp for scrolling
+}
+.navbar {
+    background-color: white;
+    .navbar-brand{
+        height: $logo-height;
+        padding-top:($nav-height - $logo-height)/2;
+        padding-bottom:($nav-height - $logo-height)/2;
+    }
+    .navbar-nav{
+        &>li>a{
+            line-height: $nav-height;
+            padding-top:0px;
+            padding-bottom:0px;
+            color: $activeminds-navy;
+        }
+    }
+}
+.jumbotron{
+    background-color:$activeminds-navy;
+    h1 {
+        color: white;
+    }
+    p {
+        color:$activeminds-green;
+    }
+    .btn {
+        background-color:$activeminds-green;
+        color:$activeminds-navy;
+    }
+}
+#homeContainer {
+    h2 {
+        font-weight:normal;
+    }
+    .col-lg-4 {
+        margin-bottom: 20px;
+        text-align: center;
+        h2,p,.btn {
+            color: $activeminds-navy;
+        }
+        img {
+            border-radius: 50%;
+            border: none;
+        }
+        .btn {
+            border: 1px solid $activeminds-navy;
+        }
+    }
+}
+/* Featurettes
+----------------------------- */
+.featurette-divider {
+    margin: 80px 0; /*Space out the Bootstrap <hr> more */
+    border-color:$activeminds-navy;
+}
+/*Thins out the headings*/
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+/* Responsive CSS */
+@media (min-width: 768px) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top:120px;
+    }
+}
