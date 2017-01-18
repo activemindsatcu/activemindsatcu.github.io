@@ -35,14 +35,21 @@ title: Home
   </div>
   <!-- START THE FEATURETTES -->
   <hr class="featurette-divider">
-  <div class="row featurette">
+  <div id="eboard_featurette" class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading">Meet Our Executive Board.</h2>
-      <p class="lead">Donald Trump</p>
-      <p class="lead">Position: President-Elect</p>
+      <div class="btn-group" role="group">
+        {% assign sorted = (site.data.members | sort: 'lastname') %}
+        {% for member in sorted %}
+        <button type="button" class="btn btn-default" onclick="changeMember({{forloop.index}})">
+            {{ member.firstname }} {{ member.lastname }}
+          </button>
+        {% endfor %}
+      </div>
+      <p class="lead"></p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" src="images/pika.jpg">
+      <img id="membersImg" class="featurette-image img-responsive center-block" src="images/pika.jpg">
     </div>
   </div>
   <hr class="featurette-divider">
@@ -66,3 +73,14 @@ title: Home
     </div>
   </div>
 </div><!--end of container-->
+<script>
+var membersArray = {{ site.data.members | sort: 'lastname' | jsonify }};
+changeMember = function (idx) {
+  var member = membersArray[idx-1];
+  var featurette = document.getElementById("eboard_featurette");
+  var img = featurette.getElementsByTagName("img")[0];
+  var description = featurette.getElementsByTagName("p")[0];
+  img.src = "images/" + member["img"];
+  description.innerHTML = member["firstname"];;
+}
+</script>
