@@ -47,6 +47,7 @@ title: Home
         {% endfor %}
       </div>
       <p class="lead"></p>
+      <p class="lead"></p>
     </div>
     <div class="col-md-5">
       <img id="membersImg" class="featurette-image img-responsive center-block" src="images/pika.jpg">
@@ -73,14 +74,20 @@ title: Home
     </div>
   </div>
 </div><!--end of container-->
+<!--Javascript for Eboard Featurette-->
 <script>
 var membersArray = {{ site.data.members | sort: 'lastname' | jsonify }};
 changeMember = function (idx) {
   var member = membersArray[idx-1];
   var featurette = document.getElementById("eboard_featurette");
   var img = featurette.getElementsByTagName("img")[0];
-  var description = featurette.getElementsByTagName("p")[0];
+  var description = featurette.getElementsByTagName("p");
+  var memberInfo = description[0];
+  var funfact  = description[1];
   img.src = "images/" + member["img"];
-  description.innerHTML = member["firstname"];;
+  memberInfo.innerHTML = member["firstname"] + " " +
+    member["lastname"] + ", " + member["position"] + 
+    ", " + member["school"] + " Class of " + member["year"];
+  funfact.innerHTML = "Fun Fact: " + member["fun fact"];
 }
 </script>
