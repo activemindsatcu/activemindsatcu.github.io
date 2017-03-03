@@ -7,3 +7,27 @@ title: Resources
     <h1> Resources </h1>
   </div>
 </div>
+<div class="container">
+  <h1>On-Campus Resources</h1>
+  <dl>
+    {% for resource in site.data.on_campus_resources %}
+    <dt>
+      <a href="{{resource.link}}">{{resource.name}}</a>
+    </dt>
+    <dd>
+      {{resource.description}}
+    </dd>
+    {% endfor %}
+  </dl>
+  <h1>Off-Campus Resources</h1>
+  <dl>
+    {% for resource in site.data.off_campus_resources %}
+    <dt>
+    <a href="{{resource.link}}">{{resource.name}}</a>
+    </dt>
+    <dd>
+      {{resource.description}}
+    </dd>
+    {% endfor %}
+  </dl>
+</div>
