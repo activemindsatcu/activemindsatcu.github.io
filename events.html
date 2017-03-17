@@ -5,5 +5,29 @@ title: Events
 <div class="jumbotron">
   <div class="container">
     <h1>Events</h1>
+    <p>
+      Check out our
+      <a href="https://www.facebook.com/pg/CUActiveMinds/events/?ref=page_internal">Facebook Events</a>
+      page to learn more about our upcoming and past events
+    </p>
   </div>
+</div>
+<div class="container">
+  {% assign sorted_events = (site.data.events | sort: 'date' | reverse) %}
+  {% for event in sorted_events %}
+  <h1>{{event.name}}</h1>
+  <dl class="dl-horizontal">
+    <dt> Description</dt>
+    <dd>
+      {{event.description}}
+    </dd>
+    <dt> Date/Time</dt>
+    <dd>{{event.date | date:"%B %d, %Y"}}, from {{event.start}} to {{event.end}}</dd>
+    <dt> Location</dt>
+    <dd>{{event.location}}</dd>
+  </dl>
+  {% if event.link %}
+  <a href="{{event.link}}"><img src="images/RSVP.png" width="175px" height="44px"></a>
+  {% endif %}
+  {% endfor %}
 </div>
