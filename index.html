@@ -36,15 +36,21 @@ title: Home
     <div class="col-md-7">
       <h2 class="featurette-heading">Meet Our Executive Board.</h2>
       <div class="btn-group" role="group">
-        {% assign sorted = (site.data.members | sort: 'lastname') %}
+        {% assign sorted = (site.data.members | sort: 'last_name') %}
         {% for member in sorted %}
-        <button type="button" class="btn btn-default" onclick="changeMember({{forloop.index}})">
-            {{ member.firstname }} {{ member.lastname }}
+          <button type="button" class="btn btn-default" onclick="changeMember({{forloop.index}})">
+            {{ member.first_name }} {{ member.last_name }}
           </button>
         {% endfor %}
       </div>
-      <p class="lead"></p>
-      <p class="lead"></p>
+      <div class="lead">
+        <span id="member-name" class="lead" style="font-weight: bold;"></span>
+        <span id="position" class="lead"></span>
+      </div>
+      <p id="class-info" class="lead"></p>
+      <p id="hometown" class="lead"></p>
+      <p id="interests" class="lead"></p>
+      <p id="fun-fact" class="lead"></p>
     </div>
     <div class="col-md-5">
       <img id="membersImg" class="featurette-image img-responsive center-block" src="images/alma.jpg">
@@ -55,8 +61,8 @@ title: Home
     <div class="col-md-7 col-md-push-5">
       <h2 class="featurette-heading">Learn. <span class="text-muted">Become an advocate.</span></h2>
        <p class="lead">
-       Familiarize yourself with the <a href="resources.html">resources</a>
-         available to those seeking mental health treatment.
+          Familiarize yourself with the <a href="resources.html">resources</a>
+          available to those seeking mental health treatment.
        </p>
     </div>
     <div class="col-md-5 col-md-pull-7">
@@ -77,18 +83,25 @@ title: Home
 </div><!--end of container-->
 <!--Javascript for Eboard Featurette-->
 <script>
-var membersArray = {{ site.data.members | sort: 'lastname' | jsonify }};
+var membersArray = {{ site.data.members | sort: 'last_name' | jsonify }};
 changeMember = function (idx) {
   var member = membersArray[idx-1];
   var featurette = document.getElementById("eboard_featurette");
   var img = featurette.getElementsByTagName("img")[0];
-  var description = featurette.getElementsByTagName("p");
-  var memberInfo = description[0];
-  var funfact  = description[1];
-  img.src = "images/" + member["img"];
-  memberInfo.innerHTML = member["firstname"] + " " +
-    member["lastname"] + ", " + member["position"] + 
-    ", " + member["school"] + " Class of " + member["year"];
-  funfact.innerHTML = "Fun Fact: " + member["fun fact"];
+  var memberName = document.getElementById("member-name");
+  var position = document.getElementById("position");
+  var classInfo = document.getElementById("class-info");
+  var hometown = document.getElementById("hometown");
+  var funFact = document.getElementById("fun-fact");
+  var interests = document.getElementById("interests");
+  img.src = "images/members/" + member["img"];
+  memberName.innerHTML = member["first_name"] + " " +
+    member["last_name"] + ",";
+  position.innerHTML = member["position"];
+  classInfo.innerHTML = member["major"] + " at " +
+    member["school"] + ", Class of " + member["graduation_year"];
+  hometown.innerHTML = "From: " + member["hometown"]
+  funFact.innerHTML = "Fun Fact: " + member["fun_fact"];
+  interests.innerHTML = "Interests: " + member["interests"];
 }
 </script>

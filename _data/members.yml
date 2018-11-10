@@ -1,0 +1,65 @@
+- first_name: Raisa
+  last_name: Alam
+  position: Co-President
+  school: CC
+  graduation_year: 2021
+  hometown: Queens, New York
+  major: Medicine, Literature, and Society
+  fun_fact: I conducted Alzheimer's research
+  interests: Photography, reading and writing fiction, watching anime and Korean dramas, trying different food, bullet journaling with beautiful pens and markers
+  img: raisa_alam.jpg
+
+- first_name: Karlton
+  last_name: Chan
+  position: Co-President
+  school: GS
+  graduation_year: 2019
+  hometown: Hong Kong
+  major: Psychology
+  fun_fact: I speak and write in 3 different languages!
+  interests: Always and forever a foodie
+  img: karlton_chan.jpg
+
+- first_name: Sydney
+  last_name: Jang
+  position: Vice President
+  school: GS
+  graduation_year: 2019
+  hometown: Monterey, CA
+  major: Art History
+  fun_fact: I've ridden an elephant
+  interests: Dancing, making ceramics, eating dessert, doing yoga, and kayaking
+  img: sydney_jang.jpg
+
+- first_name: Minchul
+  last_name: Jin
+  position: Treasurer
+  school: GS
+  graduation_year: 2019
+  hometown: Seoul, South Korea
+  major: Psychology
+  fun_fact: I play bass guitar in a rock band with high school friends
+  interests: Travelling, counseling, philosophy
+  img: minchul_jin.jpg
+
+- first_name: Kimberly
+  last_name: Katz
+  position: Secretary & Social Media Coordinator
+  school: BC
+  graduation_year: 2021
+  hometown: New York, NY
+  major: Psychology
+  fun_fact: I'm a sour candy enthusiast
+  interests: Watching YouTube, playing with my pets, spending time with my friends and family
+  img: kimberly_katz.jpg
+
+- first_name: Arielle
+  last_name: Yacker
+  position: VP of Fundraising
+  school: GS
+  graduation_year: 2021
+  hometown: Easton, PA
+  major: Human Rights and Jewish Thought
+  fun_fact:  My favorite animal is a lion, I'm a Leo, and my name means lioness of God so it was practically fate for lions to be my favorite animal!
+  interests: Musical Theatre, dance, making people smile!
+  img: arielle_yacker.jpg
