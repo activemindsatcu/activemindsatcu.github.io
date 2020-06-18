@@ -29,7 +29,7 @@
   major: Cellular and Molecular Biology, Minor in Economics and Chemistry
   fun_fact: I can juggle!
   interests: sports, working out, exploring, food, volunteering
-  img: 
+  img: andrea.jpg
 
 - first_name: Sanchita
   last_name: Jalan
@@ -51,4 +51,27 @@
   major: Management Science and Engineering
   fun_fact: I speak 4 languages and some spanish
   interests: yoga, meditation, photography, pottery, watching Friends, and going to the beach
-  img: 
+  img: nouhaila.jpg
+  
+  - first_name: Emily
+  last_name: Mintz
+  position: Secretary
+  school: BC
+  graduation_year: 2023
+  hometown: Roslyn, New York
+  major: Psychology, Minor in Spanish and Latin American Studies  
+  fun_fact:  I know American Sign Language! 
+  interests: yoga, reading, exploring my hometown of Long Island, playing the piano 
+  img: emily.jpg
+  
+  - first_name: Amy
+  last_name: Zhang
+  position: Co-President
+  school: BC
+  graduation_year: 2023
+  hometown: Hillsborough, California
+  major: Economics, minor in Spanish and Latin American Studies
+  fun_fact: My Patronus is a hedgehog and I’m a Hufflepuff! I’ll talk Myers-Briggs and astrology for hours on end.
+  interests: dogs (!!), sustainable living (especially thrifting), reading and writing poetry, digital artwork, electronic and jazz music
+  img: amy.jpg
+  
