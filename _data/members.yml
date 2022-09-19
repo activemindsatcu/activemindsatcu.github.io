@@ -1,99 +1,90 @@
-- first_name: Raisa
-  last_name: Alam
-  position: Senior Advisor
+- first_name: Alyssa
+  last_name: Sales
+  position: Co-President
   school: CC
-  graduation_year: 2021
-  hometown: Queens, New York
-  major: Neuroscience and Behaviour, Pre-Medical Track
-  fun_fact: I teach 7th grade at the Lang Youth Medical Program! 
-  interests: Reading and writing fiction, watching anime and Korean dramas, trying different foods, bullet-journaling with beautiful pens and markers
+  graduation_year: 2023
+  hometown: Palo Alto, CA 
+  major: Neuroscience and Behaviour, Public Health, Pre-Medical Track
+  Looking_forward_to: Helping destigmatize mental health and meeting new folks! 
+  Favorite Season: Summer!
   img: raisa_alam.jpg
 
-- first_name: Katerina
-  last_name: Lamm
+- first_name: Aunika
+  last_name: Zheng
   position: Co-President
-  school: BC
-  graduation_year: 2023
-  hometown: Durham, North Carolina
+  school: SEAS
+  graduation_year: 2024
+  hometown: 
   major: Psychology, Minor in Spanish and Latin American Studies and Science, Ethics, and Policy
-  fun_fact: I lived in the Peruvian Amazon for a year! 
-  interests: service, baking/decorating cakes, exploring the outdoors, animals 
+  Looking_forward_to: Having discussions and conversations about mental health on campus!
+  Favorite Season: My favorite season is spring because I love watching the flowers bloom :)
   img: 
 
-- first_name: Andrea
-  last_name: Kubas-Meyer
+- first_name: Michelle
+  last_name: Mardones
   position: Social Media and Marketing Director
   school: BC
-  graduation_year: 2022
+  graduation_year: 2024
   hometown: Barrington, Rhode Island
   major: Cellular and Molecular Biology, Minor in Economics and Chemistry
-  fun_fact: I can juggle!
-  interests: sports, working out, exploring, food, volunteering
+  Looking_forward_to: Bringing professional development opportunities and speakers for students interested in pursuing careers in mental health services! 
+  Favorite_Season: My favorite season is Spring because the days are longer and  animals return :)
   img: andrea.jpg
 
-- first_name: Sanchita
-  last_name: Jalan
-  position: Co-Event Director
-  school: CC
+- first_name: Caroline
+  last_name: Erbstein
+  position: Events Coordinator
+  school: BC
   graduation_year: 2023
   hometown: Mumbai, India
   major: Economics and Computer Science
-  fun_fact: I'm a cheese popcorn enthusiast :)
-  interests: Reading, writing, doodling, dancing and making people smile!
+  Looking_forward_to: Meeting new people! 
+  Favorite Season: Spring
   img: sanchita_j.jpg
 
-- first_name: Nouhaila
-  last_name: El Majidi
-  position: Communication/Outreach Director
-  school: CC (Graduate School)
-  graduation_year: 2022
+- first_name: Caroline
+  last_name: Alleyne
+  position: Diversity and Inclusion Chair
+  school: CC 
+  graduation_year: 2023
   hometown: Rabat, Morocco
   major: Management Science and Engineering
-  fun_fact: I speak 4 languages and some spanish
-  interests: yoga, meditation, photography, pottery, watching Friends, and going to the beach
+  Looking_forward_to: Spending time and growing closer to the senior class at all the fun events this year.
+  Favorite Season: Summer!
   img: nouhaila.jpg
   
-- first_name: Emily
-  last_name: Mintz
-  position: Secretary
-  school: BC
-  graduation_year: 2023
-  hometown: Roslyn, New York
-  major: Psychology, Minor in Spanish and Latin American Studies  
-  fun_fact:  I know American Sign Language! 
-  interests: yoga, reading, exploring my hometown of Long Island, playing the piano 
-  img: emily.jpg
-  
-- first_name: Amy
-  last_name: Zhang
-  position: Co-President
-  school: BC
-  graduation_year: 2023
-  hometown: Hillsborough, California
-  major: Economics, minor in Spanish and Latin American Studies
-  fun_fact: My Patronus is a hedgehog and I’m a Hufflepuff! I’ll talk Myers-Briggs and astrology for hours on end.
-  interests: dogs (!!), sustainable living (especially thrifting), reading and writing poetry, digital artwork, electronic and jazz music
-  img: amy.jpg
-  
-- first_name: Mizia
-  last_name: Wessel
+- first_name: Laila
+  last_name: Diaz
   position: Treasurer
   school: CC
+  graduation_year: 2025
+  hometown: Roslyn, New York
+  major: Psychology, Minor in Spanish and Latin American Studies  
+  Looking_forward_to: Getting to have in-person events and meeting others who are passionate about mental health!
+  Favorite Season: Fall
+  img: emily.jpg
+  
+- first_name: Brian
+  last_name: Villalta
+  position: Social Media Coordinator
+  school: CC
+  graduation_year: 2024
+  hometown: Hillsborough, California
+  major: Economics, minor in Spanish and Latin American Studies
+  Looking_forward_to: Working with the general body this year to plan out events that will make a lasting impact on our members!
+  Favorite Season: 
+  img: amy.jpg
+  
+- first_name: Alexandra
+  last_name: Sullivan
+  position: Outreach Coordinator 
+  school: BC
   graduation_year: 2023
   hometown: Washington, D.C.
   major: Economics, concentration in Psychology
-  fun_fact: I run a food Instagram account (@eatingthecapital). 
-  interests: Tennis, baking, running, trying new foods/restaurants
+  Looking_forward_to: I'm excited to work together on STEM-based mental health events and learn more about everyone's passions. 
+  Favorite Season: Spring is the best season regardless of what my pollen allergies have to say.  
   img:
 
-- first_name: Katherine
-  last_name: Wu
-  position: Outreach/Communications Director
-  school: CC
-  graduation_year: 2023
-  hometown: Hong Kong
-  major: Undecided
-  fun_fact: I’ve published pieces of personal poetry in 3 literary publications.
-  interests: Poetry writing, running, listening to R&B music, restaurant hopping, dancing, loving, living.
-  img: kat_wu.jpg
+
   
