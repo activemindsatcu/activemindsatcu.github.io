@@ -105,6 +105,10 @@ changeMember = function (idx) {
   lookingForwardTo.innerHTML = "Looking forward to: " + member["looking_forward_to"];
   if(member["favorite_season"].length>0) {
     season.innerHTML = "Favorite season: " + member["favorite_season"];
+  }
+  else{
+    season.innerHTML = "";
+  }
   };
 }
 </script>
