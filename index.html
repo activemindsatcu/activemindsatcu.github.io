@@ -84,7 +84,7 @@ title: Home
 </div><!--end of container-->
 <!--Javascript for Eboard Featurette-->
 <script>
-var membersArray = {{ site.data.members | sort: 'last_name' | jsonify }};
+var membersArray = {{ site.data.members | jsonify }};
 changeMember = function (idx) {
   var member = membersArray[idx-1];
   var featurette = document.getElementById("eboard_featurette");
