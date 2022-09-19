@@ -48,6 +48,7 @@ title: Home
         <span id="position" class="lead"></span>
       </div>
       <p id="class-info" class="lead"></p>
+      <p id="major-info" class="lead"></p>
       <p id="hometown" class="lead"></p>
       <p id="interests" class="lead"></p>
       <p id="fun-fact" class="lead"></p>
@@ -91,6 +92,7 @@ changeMember = function (idx) {
   var memberName = document.getElementById("member-name");
   var position = document.getElementById("position");
   var classInfo = document.getElementById("class-info");
+  var majorInfo = document.getElementById("major-info");
   var hometown = document.getElementById("hometown");
   var lookingForwardTo = document.getElementById("looking-forward-to");
   var season = document.getElementById("season");
@@ -98,10 +100,10 @@ changeMember = function (idx) {
   memberName.innerHTML = member["first_name"] + " " +
     member["last_name"] + ",";
   position.innerHTML = member["position"];
-  classInfo.innerHTML = member["major"] + " at " +
-    member["school"] + ", Class of " + member["graduation_year"];
-  hometown.innerHTML = "Hometown: " + member["hometown"]
-  funFact.innerHTML = "Looking forward to: " + member["looking_forward_to"];
-  interests.innerHTML = "Favorite Season: " + member["favorite_season"];
+  classInfo.innerHTML = member["school"] + " Class of " + member["graduation_year"];
+  majorInfo.innerHTML = member["major"];
+  hometown.innerHTML = "Hometown: " + member["hometown"];
+  lookingForwardTo.innerHTML = "Looking forward to: " + member["looking_forward_to"];
+  season.innerHTML = "Favorite Season: " + member["favorite_season"];
 }
 </script>
