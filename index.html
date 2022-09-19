@@ -36,7 +36,7 @@ title: Home
     <div class="col-md-7">
       <h2 class="featurette-heading">Meet Our Executive Board.</h2>
       <div class="btn-group" role="group">
-        {% assign sorted = (site.data.members | sort: 'last_name') %}
+        {% assign sorted = (site.data.members) %}
         {% for member in sorted %}
           <button type="button" class="btn btn-default" onclick="changeMember({{forloop.index}})">
             {{ member.first_name }} {{ member.last_name }}
