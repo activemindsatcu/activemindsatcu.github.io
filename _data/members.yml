@@ -31,6 +31,17 @@
   favorite_season: My favorite season is Spring because the days are longer and  animals return :)
   img: andrea.jpg
 
+- first_name: Laila
+  last_name: Diaz
+  position: Treasurer
+  school: CC
+  graduation_year: 2025
+  hometown: Berkeley, CA
+  major: Medical Humanities and Creative Writing  
+  looking_forward_to: Getting to have in-person events and meeting others who are passionate about mental health!
+  favorite_season: Fall
+  img: emily.jpg
+  
 - first_name: Caroline
   last_name: Erbstein
   position: Events Coordinator
@@ -52,17 +63,6 @@
   looking_forward_to: Spending time and growing closer to the senior class at all the fun events this year.
   favorite_season: Summer!
   img: nouhaila.jpg
-  
-- first_name: Laila
-  last_name: Diaz
-  position: Treasurer
-  school: CC
-  graduation_year: 2025
-  hometown: Berkeley, CA
-  major: Medical Humanities and Creative Writing  
-  looking_forward_to: Getting to have in-person events and meeting others who are passionate about mental health!
-  favorite_season: Fall
-  img: emily.jpg
   
 - first_name: Brian
   last_name: Villalta
