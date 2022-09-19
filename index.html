@@ -92,16 +92,16 @@ changeMember = function (idx) {
   var position = document.getElementById("position");
   var classInfo = document.getElementById("class-info");
   var hometown = document.getElementById("hometown");
-  var funFact = document.getElementById("fun-fact");
-  var interests = document.getElementById("interests");
+  var lookingForwardTo = document.getElementById("looking-forward-to");
+  var season = document.getElementById("season");
   img.src = "images/members/" + member["img"];
   memberName.innerHTML = member["first_name"] + " " +
     member["last_name"] + ",";
   position.innerHTML = member["position"];
   classInfo.innerHTML = member["major"] + " at " +
     member["school"] + ", Class of " + member["graduation_year"];
-  hometown.innerHTML = "From: " + member["hometown"]
-  funFact.innerHTML = "Fun Fact: " + member["fun_fact"];
-  interests.innerHTML = "Interests: " + member["interests"];
+  hometown.innerHTML = "Hometown: " + member["hometown"]
+  funFact.innerHTML = "Looking forward to: " + member["looking_forward_to"];
+  interests.innerHTML = "Favorite Season: " + member["favorite_season"];
 }
 </script>
